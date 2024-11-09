@@ -8,6 +8,7 @@
           type="number"
           class="form-control"
           id="weight"
+          min="1"
           v-model="weight"
           required
         />
@@ -18,6 +19,7 @@
           type="number"
           class="form-control"
           id="height"
+          min="1"
           v-model="height"
           required
         />
